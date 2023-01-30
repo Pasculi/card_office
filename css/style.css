@@ -156,4 +156,11 @@ body {
     text-align: center;
     padding: 10px;
 }
+.title{
+    font-size: 2.5rem;
+}
+.card{
+    width: 350px;
+    min-height: 300px;
+}
 }
