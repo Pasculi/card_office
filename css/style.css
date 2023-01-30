@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --color_amarillo:#FFA100;
+    --color_azul:#5F7FBB;
+    --color-azul-letter:#204175;
+}
+body{
+    font-family: 'Roboto',
+sans-serif;
+background-color: #efeff0;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 1200px;
+    margin: 0 auto
+
+}
+.header{
+    display: flex;
+}
+.card__guardia{
+    font-size: 2rem;
+    font-weight: 900;
+    background: var(--color_amarillo);
+    padding: 15px 10px;
+    border-radius: 18px 18px 0 0;
+    margin-bottom: 15px;
+}
+.title{
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 40px;
+    font-size: 3.5rem;
+    font-weight: bold;
+    color:var(--color-azul-letter);
+    
+}
+.logo{
+    width: 200px;
+}
+.container__card{
+    display: flex;
+    gap: 20px;
+    justify-content: space-evenly;
+}
+.card{
+    display: flex;
+    width: 350px;
+    min-height: 400px;
+    flex-direction: column;
+    gap:10px;
+    background:var(--color_azul);
+    text-align: center;
+    align-content:space-between ;
+    justify-content: center;
+    box-shadow: 0 0 10px rgba(0,0,0, .5);
+    border-radius: 10px;
+    color: #fff;
+    transition: transform .2s ease-in-out .1s;
+}
+.card:hover{
+    transform: scale(1.1);
+}
+.card__nombre{
+    font-size: 1.5rem;
+    
+}
+.card__telefono{
+    font-size: 1.5rem;
+}
+.card_phone{
+    width: 40px;
+    position:relative;
+    top:48px;
+    left:50px;
+}
+.footer{
+    margin-top: 60px;
+    text-align: right;
+    font-size: 1rem;
+    font-weight:bold;
+    color:var(--color-azul-letter);
+}
